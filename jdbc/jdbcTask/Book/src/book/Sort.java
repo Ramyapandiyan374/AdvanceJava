@@ -18,7 +18,7 @@ public static void main(String[] args) {
        
        
 		while(rs.next()) {
-			;
+			
 			String a=rs.getString(1);
 			set.add(a);
 			
@@ -34,3 +34,4 @@ public static void main(String[] args) {
 	}
 }
 }
+
